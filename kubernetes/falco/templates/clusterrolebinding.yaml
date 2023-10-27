@@ -11,7 +11,7 @@ metadata:
 subjects:
   - kind: ServiceAccount
     name: falco
-    namespace: default
+    namespace: falco
 roleRef:
   kind: ClusterRole
   name: falco
