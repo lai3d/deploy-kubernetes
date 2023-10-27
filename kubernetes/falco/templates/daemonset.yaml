@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: DaemonSet
 metadata:
   name: falco
-  namespace: default
+  namespace: falco
   labels:
     helm.sh/chart: falco-3.8.0
     app.kubernetes.io/name: falco

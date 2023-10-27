@@ -2,7 +2,7 @@ apiVersion: v1
 kind: ConfigMap
 metadata:
   name: falco-falcoctl
-  namespace: default
+  namespace: falco
   labels:
     helm.sh/chart: falco-3.8.0
     app.kubernetes.io/name: falco
